@@ -1,4 +1,4 @@
-# ?? DataForge: Automated EDA & Analytics Platform
+﻿# 📊 DataForge: Automated EDA & Analytics Platform
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
@@ -10,14 +10,14 @@
 
 ---
 
-## ????? Why I Built This
-**This project was born out of frustration.** As I worked on more data science problems, I realized I was rewriting the same initialization code�loading CSVs, checking for nulls, and plotting distributions�for every single project. It was repetitive and took time away from the actual modeling.
+## 👨‍💻 Why I Built This
+**This project was born out of frustration.** As I worked on more data science problems, I realized I was rewriting the same initialization code—loading CSVs, checking for nulls, and plotting distributions—for every single project. It was repetitive and took time away from the actual modeling.
 
 **DataForge** is my solution to that bottleneck. I wanted a tool that could handle the "boring" parts of data analysis instantly. This project also marks a personal milestone: it's my transition from writing isolated scripts in Jupyter Notebooks to building modular, full-stack data applications.
 
 ---
 
-## ?? Overview
+## 🚀 Overview
 **DataForge** is a production-ready, modular analytics engine designed to bridge the gap between raw CSV datasets and actionable intelligence. 
 
 Unlike standard dashboards, DataForge relies on a **decoupled architecture**. The core logic (\eda_functions.py\) is separated from the UI, allowing developers to import the engine into their own Jupyter Notebooks or ML pipelines.
@@ -29,14 +29,14 @@ Unlike standard dashboards, DataForge relies on a **decoupled architecture**. Th
 
 ---
 
-## ?? How It Works
+## ⚙️ How It Works
 1.  **Ingestion:** The app accepts CSV uploads and converts them into a Pandas DataFrame.
 2.  **Processing:** The \eda_engine\ cleans the data, infers data types (Numerical vs. Categorical), and calculates statistical summaries.
 3.  **Rendering:** Streamlit's reactive framework listens for user inputs (e.g., "Show Outliers") and triggers Plotly to render interactive charts in real-time.
 
 ---
 
-## ? Getting Started
+## ⚡ Getting Started
 Want to see it in action? Follow these steps to run the app on your own machine.
 
 ### Prerequisites
@@ -45,32 +45,32 @@ Want to see it in action? Follow these steps to run the app on your own machine.
 ### Installation
 
 1.  **Clone the repository**
-    \\\ash
-    git clone https://github.com/sahilistrying/DataForge-Analytics.git
+    `ash
+    git clone [https://github.com/sahilistrying/DataForge-Analytics.git](https://github.com/sahilistrying/DataForge-Analytics.git)
     cd DataForge-Analytics
-    \\\
+    `
 
 2.  **Install Dependencies**
-    \\\ash
+    `ash
     pip install -r requirements.txt
-    \\\
+    `
 
 3.  **Launch the Application**
-    \\\ash
+    `ash
     python -m streamlit run app.py
-    \\\
+    `
     *The app will automatically open in your default web browser.*
 
 ---
 
-## ?? Future Roadmap & Contributing
+## 🔮 Future Roadmap & Contributing
 We have ambitious plans to make DataForge the standard for open-source EDA.
 
 * [ ] **AI Insights:** Integrate OpenAI/Gemini API to provide text-based explanations of the data trends.
 * [ ] **Report Generation:** Add a "Download PDF" button to export the entire analysis as a report.
 * [ ] **SQL Support:** Allow direct connection to SQL databases instead of just CSV files.
 
-### ?? Want to help?
+### 🤝 Want to help?
 Contributions are welcome! If you are interested in working on any of the features above, please open a PR. Let's build the future of accessible data science together.
 
 ---
